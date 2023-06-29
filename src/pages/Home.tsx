@@ -26,7 +26,7 @@ const Home: React.FC = () => {
             <IonTitle size="large">My AWay App</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <h1>Hello from Karan</h1>
+        <h1>Hello from Main Branch</h1>
       </IonContent>
     </IonPage>
   );

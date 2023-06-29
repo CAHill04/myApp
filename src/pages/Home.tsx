@@ -1,7 +1,15 @@
-import React from 'react';
-import { IonButton, IonContent, IonHeader, IonPage, IonSearchbar, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Home.css';
+import React from "react";
+
+import {
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonSearchbar,
+  IonTitle,
+  IonToolbar,
+} from "@ionic/react";
+import ExploreContainer from "../components/ExploreContainer";
+import "./Home.css";
 
 const Home: React.FC = () => {
   return (
@@ -9,8 +17,6 @@ const Home: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonTitle>My App</IonTitle>
-          <IonButton>vggvg</IonButton>
-          
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
@@ -19,12 +25,7 @@ const Home: React.FC = () => {
             <IonTitle size="large">My AWay App</IonTitle>
           </IonToolbar>
         </IonHeader>
-        {/* <ExploreContainer /> */}
-        <IonSearchbar></IonSearchbar>
-      <IonSearchbar placeholder="Custom Placeholder"></IonSearchbar>
-      <IonSearchbar disabled={true} placeholder="Disabled"></IonSearchbar>
-      <IonSearchbar value="Value"></IonSearchbar>
-      <IonSearchbar animated={true} placeholder="Animated"></IonSearchbar>
+        <ExploreContainer />
       </IonContent>
     </IonPage>
   );

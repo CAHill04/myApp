@@ -19,7 +19,6 @@ const Home: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <h1>Hello from Karan</h1>
-        <h1>Hello from Caoimhe</h1>
       </IonContent>
     </IonPage>
   );

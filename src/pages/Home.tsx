@@ -14,15 +14,10 @@ const Home: React.FC = () => {
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">My AWay App</IonTitle>
+            <IonTitle size="large">My AWay </IonTitle>
           </IonToolbar>
         </IonHeader>
-        {/* <ExploreContainer /> */}
-        <IonSearchbar></IonSearchbar>
-      <IonSearchbar placeholder="Custom Placeholder"></IonSearchbar>
-      <IonSearchbar disabled={true} placeholder="Disabled"></IonSearchbar>
-      <IonSearchbar value="Value"></IonSearchbar>
-      <IonSearchbar animated={true} placeholder="Animated"></IonSearchbar>
+        <h1>Hi from Caoimhe!</h1>
       </IonContent>
     </IonPage>
   );

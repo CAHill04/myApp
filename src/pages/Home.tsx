@@ -26,6 +26,7 @@ const Home: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <ExploreContainer />
+        <h1>Hello World</h1>
       </IonContent>
     </IonPage>
   );

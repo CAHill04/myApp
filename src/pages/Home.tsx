@@ -9,8 +9,6 @@ const Home: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonTitle>My App</IonTitle>
-          <IonButton>vggvg</IonButton>
-          
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>

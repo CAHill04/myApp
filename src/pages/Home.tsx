@@ -8,7 +8,6 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>My App</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
@@ -17,7 +16,6 @@ const Home: React.FC = () => {
             <IonTitle size="large">My AWay </IonTitle>
           </IonToolbar>
         </IonHeader>
-        <h1>Hi from Caoimhe</h1>
       </IonContent>
     </IonPage>
   );

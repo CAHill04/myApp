@@ -9,14 +9,14 @@ const Home: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonTitle>My App</IonTitle>
-          <IonButton>Login</IonButton>
+          <IonButton>vggvg</IonButton>
           
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">My App</IonTitle>
+            <IonTitle size="large">My AWay App</IonTitle>
           </IonToolbar>
         </IonHeader>
         {/* <ExploreContainer /> */}

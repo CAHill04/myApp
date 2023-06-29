@@ -8,6 +8,8 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
+        <IonTitle>My App</IonTitle>
+          <IonButton>vggvg</IonButton>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
@@ -16,6 +18,8 @@ const Home: React.FC = () => {
             <IonTitle size="large">My AWay </IonTitle>
           </IonToolbar>
         </IonHeader>
+        <h1>Hello from Karan</h1>
+        <h1>Hello from Caoimhe</h1>
       </IonContent>
     </IonPage>
   );

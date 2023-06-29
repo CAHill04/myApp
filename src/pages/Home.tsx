@@ -18,12 +18,14 @@ const Home: React.FC = () => {
         <IonToolbar>
           <IonTitle>My App</IonTitle>
           <IonButton>vggvg</IonButton>
+        <IonTitle>My App</IonTitle>
+          <IonButton>vggvg</IonButton>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">My AWay App</IonTitle>
+            <IonTitle size="large">My AWay </IonTitle>
           </IonToolbar>
         </IonHeader>
         <h1>Hello from Main Branch</h1>
